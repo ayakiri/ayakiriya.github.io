@@ -106,17 +106,26 @@ nav ul li a {
     padding: 10px;
   }
 
+  .menu-text{
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+  }
 
-  header {
-    text-align: center;
+  #profile-picture  {
+    float: left;
+    width: 45%;
+    margin-top: 10px;
   }
 
   nav {
-    margin-top: 20px;
+    float: left;
+    width: 45%;
+    margin-left: 20px;
   }
 
-  .content {
-    padding: 10px;
+  .menu-text #contact {
+    order: 1;
   }
 }
 
