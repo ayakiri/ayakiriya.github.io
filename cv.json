@@ -4,70 +4,64 @@
     {
       "name": "Polish Japanese Academy of Information Technology in Gdańsk",
       "dates": "October 2021 - now",
-      "course": "Computer Science - Bachelor degree",
-      "extra_info": ["one", "two", "three"]
+      "course": "Computer Science - Bachelor degree"
     },
     {
       "name": "Technikum nr 1 im Polskich Noblistów w Słupsku (Technical school)",
       "dates": "September 2017 - april 2021",
       "course": "IT class",
-      "extra_info": ["one", "two", "three"]
+      "extra_info": ["got IT technician title"]
     }
   ],
   "projects": [
     {
-      "name": "Projekt 1",
-      "dates": "Daty",
-      "link": "Link do strony",
-      "extra_info": ["one", "two", "three"]
+      "name": "HACKATHON - AI GAMES",
+      "dates": "18 - 20 NOVEMBER 2022",
+      "link": "https://github.com/P4steo/AIGames",
+      "extra_info": ["My team's task was to create AI that will predict whether plane route will be availabe.",
+       "I was using github, python and XGBoost machine learning library"]
     },
     {
-      "name": "Projekt 2",
-      "dates": "Daty",
-      "Link": "Link do strony",
-      "extra_info": ["one", "two", "three"]
+      "name": "Java MVC Spring Project ",
+      "dates": "20 February 2022",
+      "Link": "https://github.com/ayakiriya/java-spring-mvc-project",
+      "extra_info": ["Simple MVC project using Java and Spring framework"]
     }
   ],
   "experience": [
     {
       "title": "Witkac in Słupsk",
-      "dates": "July 2019; february 2020",
-      "position": "Pozycja",
-      "extra_info": ["one", "two", "three"]
-    },
-    {
-      "title": "Stanowisko",
-      "dates": "Daty",
-      "position": "Pozycja",
-      "extra_info": ["one", "two", "three"]
+      "dates": "July 2019; February 2020",
+      "position": "Internship",
+      "extra_info": ["I was using JavaScript and VUE JS to create a time tracking application and JSON converter app", 
+        "I was working with gitlab"]
     }
   ],
   "skills": [
     {
-      "hard_skills": ["one", "two", "three"],
-      "soft_skills": ["one", "two", "three"]
+      "hard_skills": ["Python", "Java", "JavaScript"],
+      "soft_skills": ["Analitical Thinking", "Curious", "Teamwork", "Adaptable"]
     }
   ],
   "languages": [
     {
-      "language": "Język 1",
-      "proficiency": "Biegłość"
+      "language": "Polish",
+      "proficiency": "Native"
     },
     {
-      "language": "Język 2",
-      "proficiency": "Biegłość"
+      "language": "English",
+      "proficiency": "Advanced - C1"
+    },
+    {
+      "language": "Japanese",
+      "proficiency": "Beginner"
     }
   ],
   "certifications": [
     {
-      "name": "Certyfikat 1",
-      "date": "Data",
-      "examinator": "Kto wystawil"
-    },
-    {
-      "name": "Certyfikat 2",
-      "date": "Data",
-      "examinator": "Kto wystawil"
+      "name": "IT technician",
+      "date": "28 MAY 2021",
+      "examinator": "Regional Examination Board in Gdańsk"
     }
   ]
 }
