@@ -2,15 +2,64 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Imaginary Person's CV</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moje CV</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div id="content">
-    <h1>Imaginary Person's CV</h1>
-    <div id="loading">Loading...</div>
-    <div id="cv"></div>
+  <header>
+    <h1>Moje CV</h1>
+    <nav>
+      <ul>
+        <li><a href="#kim-jestem">Kim jestem</a></li>
+        <li><a href="#edukacja">Edukacja</a></li>
+        <li><a href="#projekty">Projekty</a></li>
+        <li><a href="#doswiadczenie">Doświadczenie</a></li>
+        <li><a href="#umiejetnosci">Umiejętności</a></li>
+        <li><a href="#jezyki">Języki</a></li>
+        <li><a href="#certyfikaty">Certyfikaty</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="content">
+    <section id="kim-jestem">
+      <h2>Kim jestem</h2>
+      <p id="kim-jestem-content"></p>
+    </section>
+
+    <section id="edukacja">
+      <h2>Edukacja</h2>
+      <ul id="edukacja-list"></ul>
+    </section>
+
+    <section id="projekty">
+      <h2>Projekty</h2>
+      <ul id="projekty-list"></ul>
+    </section>
+
+    <section id="doswiadczenie">
+      <h2>Doświadczenie</h2>
+      <ul id="doswiadczenie-list"></ul>
+    </section>
+
+    <section id="umiejetnosci">
+      <h2>Umiejętności</h2>
+      <ul id="umiejetnosci-list"></ul>
+    </section>
+
+    <section id="jezyki">
+      <h2>Języki</h2>
+      <ul id="jezyki-list"></ul>
+    </section>
+
+    <section id="certyfikaty">
+      <h2>Certyfikaty</h2>
+      <ul id="certyfikaty-list"></ul>
+    </section>
   </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="main.js"></script>
 </body>
 </html>

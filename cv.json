@@ -1,20 +1,32 @@
 {
-  "introduction": "I am an imaginary person with a passion for computer science.",
-  "education": [
-    "Bachelor's Degree in Computer Science, Imaginary University, 2020-2024"
+  "kim_jestem": "Jestem programistą z pasją do tworzenia nowych rozwiązań.",
+  "edukacja": [
+    "BSc Informatyki, Uniwersytet ABC, 2010-2014",
+    "MSc Inżynierii Oprogramowania, Uniwersytet XYZ, 2014-2016"
   ],
-  "experience": [
-    "Software Engineering Intern, Imaginary Company, Summer 2023",
-    "Web Developer, Imaginary Freelancer, 2022-2023"
+  "projekty": [
+    "Aplikacja do zarządzania projektami",
+    "Strona internetowa dla firmy ABC",
+    "Aplikacja mobilna dla systemu Android"
   ],
-  "projects": [
-    "E-commerce Website: Built a fully functional online store using React and Node.js.",
-    "Mobile App Development: Developed a cross-platform mobile app using Flutter framework."
+  "doswiadczenie": [
+    "Junior Programista, Firma XYZ, 2016-2017",
+    "Programista, Firma ABC, 2017-2020",
+    "Starszy Programista, Firma XYZ, 2020-Obecnie"
   ],
-  "skills": {
-    "hard": ["Java", "Python", "JavaScript", "C++", "HTML/CSS", "SQL"],
-    "soft": ["Teamwork", "Problem Solving", "Communication", "Leadership"]
-  },
-  "languages": ["English (Fluent)", "Spanish (Intermediate)"],
-  "certificates": ["Oracle Certified Java Programmer", "AWS Certified Cloud Practitioner"]
+  "umiejetnosci": [
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "Python",
+    "Java"
+  ],
+  "jezyki": [
+    "Polski (w mowie i piśmie)",
+    "Angielski (w mowie i piśmie)"
+  ],
+  "certyfikaty": [
+    "Certyfikat JavaScript",
+    "Certyfikat HTML i CSS"
+  ]
 }
