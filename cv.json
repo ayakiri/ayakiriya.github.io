@@ -1,74 +1,64 @@
 {
-  "kim_jestem": "Jestem programistą z pasją do tworzenia nowych rozwiązań.",
-  "edukacja": [
+  "about_me": "Jestem pasjonującym programistą, oddanym tworzeniu innowacyjnych rozwiązań.",
+  "education": [
     {
-      "name": "tytul",
-      "dates": "daty",
-      "description": "opis"
+      "name": "Stopień",
+      "dates": "Daty",
+      "description": "Opis"
     },
     {
-      "name": "tytul",
-      "dates": "daty",
-      "description": "opis"
+      "name": "Stopień",
+      "dates": "Daty",
+      "description": "Opis"
     }
   ],
-  "projekty": [
+  "projects": [
     {
-      "name": "tytul",
-      "second_name": "podtytul",
-      "link": "link",
-      "description": "opis"
+      "name": "Projekt 1",
+      "dates": "Daty",
+      "description": "Opis"
     },
     {
-      "name": "tytul",
-      "second_name": "podtytul",
-      "dates": "daty",
-      "description": "opis"
-    },
-    {
-      "name": "tytul",
-      "second_name": "podtytul",
-      "dates": "daty",
-      "description": "opis"
+      "name": "Projekt 2",
+      "dates": "Daty",
+      "description": "Opis"
     }
   ],
-  "doswiadczenie": [
+  "experience": [
     {
-      "name": "tytul",
-      "second_name": "podtytul",
-      "dates": "daty",
-      "description": "opis"
+      "title": "Stanowisko",
+      "dates": "Daty",
+      "description": "Opis"
     },
     {
-      "name": "tytul",
-      "second_name": "podtytul",
-      "dates": "daty",
-      "description": "opis"
+      "title": "Stanowisko",
+      "dates": "Daty",
+      "description": "Opis"
     }
   ],
-  "umiejetnosci": [
-    "Opcja",
-    "Opcja",
-    "Opcja"
+  "skills": [
+    "Umiejętność 1",
+    "Umiejętność 2",
+    "Umiejętność 3"
   ],
-  "jezyki": [
+  "languages": [
     {
-      "lang": "jezyk",
-      "level": "poziom"
+      "language": "Język 1",
+      "proficiency": "Biegłość"
     },
     {
-      "lang": "jezyk",
-      "level": "poziom"
+      "language": "Język 2",
+      "proficiency": "Biegłość"
     }
   ],
-  "certyfikaty": [
+  "certifications": [
     {
-      "name": "nazwa",
-      "details": "szczegoly"
+      "name": "Certyfikat 1",
+      "date": "Data"
     },
     {
-      "name": "nazwa",
-      "details": "szczegoly"
+      "name": "Certyfikat 2",
+      "date": "Data"
     }
   ]
 }
