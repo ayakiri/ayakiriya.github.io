@@ -74,6 +74,15 @@ body {
   transform: translateY(-50%);
 }
 
+#contact a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#contact p {
+  padding-left: 20px;
+}
+
 nav ul {
   list-style: none;
   padding: 0;
@@ -125,7 +134,7 @@ nav ul li a {
   }
 
   .menu-text #contact {
-    order: 1;
+    order: -1;
   }
 }
 

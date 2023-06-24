@@ -150,4 +150,5 @@ $(document).ready(function() {
     });
     
     hideAllSections();
+    $('#about-me').show();
 });
