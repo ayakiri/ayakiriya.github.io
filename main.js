@@ -31,6 +31,10 @@ $(document).ready(function() {
       var sectionContent = $('#' + sectionId + '-content');
 
       switch (sectionId) {
+        case 'kim-jestem':
+          sectionContent.text(data.kim_jestem);
+          break;
+
         case 'edukacja':
           var educationContent = '';
           data.edukacja.forEach(function(edu) {
