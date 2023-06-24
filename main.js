@@ -11,19 +11,19 @@ $(document).ready(function() {
   });
 
   // Obsługa kliknięcia sekcji
-  $('nav a').click(function(e) {
-    e.preventDefault();
-    var sectionId = $(this).attr('href').substring(1); // Pobierz ID sekcji bez '#'
+    $('.nav-link').click(function(e) {
+      e.preventDefault();
+      var sectionId = $(this).attr('href').substring(1); // Pobierz ID sekcji bez '#'
 
-    // Ukryj wszystkie sekcje
-    hideAllSections();
+      // Ukryj wszystkie sekcje
+      hideAllSections();
 
-    // Pokaż tylko wybraną sekcję
-    $('#' + sectionId).show();
+      // Pokaż tylko wybraną sekcję
+      $('#' + sectionId).show();
 
-    // Wczytaj dane dla wybranej sekcji
-    loadData(sectionId);
-  });
+      // Wczytaj dane dla wybranej sekcji
+      loadData(sectionId);
+    });
 
   // Funkcja do wczytywania danych dla danej sekcji
   function loadData(sectionId) {
