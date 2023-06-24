@@ -1,32 +1,30 @@
 {
   "kim_jestem": "Jestem programistą z pasją do tworzenia nowych rozwiązań.",
   "edukacja": [
-    "BSc Informatyki, Uniwersytet ABC, 2010-2014",
-    "MSc Inżynierii Oprogramowania, Uniwersytet XYZ, 2014-2016"
+    "Opcja",
+    "Opcja"
   ],
   "projekty": [
-    "Aplikacja do zarządzania projektami",
-    "Strona internetowa dla firmy ABC",
-    "Aplikacja mobilna dla systemu Android"
+    "Opcja",
+    "Opcja",
+    "Opcja"
   ],
   "doswiadczenie": [
-    "Junior Programista, Firma XYZ, 2016-2017",
-    "Programista, Firma ABC, 2017-2020",
-    "Starszy Programista, Firma XYZ, 2020-Obecnie"
+    "Opcja",
+    "Opcja",
+    "Opcja"
   ],
   "umiejetnosci": [
-    "JavaScript",
-    "HTML",
-    "CSS",
-    "Python",
-    "Java"
+    "Opcja",
+    "Opcja",
+    "Opcja"
   ],
   "jezyki": [
-    "Polski (w mowie i piśmie)",
-    "Angielski (w mowie i piśmie)"
+    "Opcja",
+    "Opcja"
   ],
   "certyfikaty": [
-    "Certyfikat JavaScript",
-    "Certyfikat HTML i CSS"
+    "Opcja",
+    "Opcja"
   ]
 }
