@@ -29,8 +29,80 @@ $(document).ready(function() {
   function loadData(sectionId) {
     $.getJSON('cv.json', function(data) {
       var sectionContent = $('#' + sectionId + '-content');
-      var dataKey = sectionId.replace('-', '_');
-      sectionContent.text(data[dataKey]);
+
+      switch (sectionId) {
+        case 'edukacja':
+          var educationContent = '';
+          data.edukacja.forEach(function(edu) {
+            educationContent += '<div class="education-item">' +
+              '<h3>' + edu.name + '</h3>' +
+              '<p class="date">' + edu.dates + '</p>' +
+              '<p>' + edu.description + '</p>' +
+              '</div>';
+          });
+          sectionContent.html(educationContent);
+          break;
+    
+        case 'projekty':
+          var projectsContent = '';
+          data.projekty.forEach(function(proj) {
+            projectsContent += '<div class="project-item">' +
+              '<h3>' + proj.name + '</h3>' +
+              '<h4>' + proj.second_name + '</h4>' +
+              '<p><a href="' + proj.link + '">' + proj.link + '</a></p>' +
+              '<p>' + proj.description + '</p>' +
+              '</div>';
+          });
+          sectionContent.html(projectsContent);
+          break;
+    
+        case 'doswiadczenie':
+          var experienceContent = '';
+          data.doswiadczenie.forEach(function(exp) {
+            experienceContent += '<div class="experience-item">' +
+              '<h3>' + exp.name + '</h3>' +
+              '<h4>' + exp.second_name + '</h4>' +
+              '<p class="date">' + exp.dates + '</p>' +
+              '<p>' + exp.description + '</p>' +
+              '</div>';
+          });
+          sectionContent.html(experienceContent);
+          break;
+    
+        case 'umiejetnosci':
+          var skillsContent = '';
+          data.umiejetnosci.forEach(function(skill) {
+            skillsContent += '<p>' + skill + '</p>';
+          });
+          sectionContent.html(skillsContent);
+          break;
+    
+        case 'jezyki':
+          var languagesContent = '';
+          data.jezyki.forEach(function(lang) {
+            languagesContent += '<div class="language-item">' +
+              '<p class="language">' + lang.lang + '</p>' +
+              '<p class="level">' + lang.level + '</p>' +
+              '</div>';
+          });
+          sectionContent.html(languagesContent);
+          break;
+    
+        case 'certyfikaty':
+          var certificationsContent = '';
+          data.certyfikaty.forEach(function(cert) {
+            certificationsContent += '<div class="certification-item">' +
+              '<h3>' + cert.name + '</h3>' +
+              '<p>' + cert.details + '</p>' +
+              '</div>';
+          });
+          sectionContent.html(certificationsContent);
+          break;
+    
+        default:
+          sectionContent.text('Brak danych.');
+          break;
+      }
     });
   }
 

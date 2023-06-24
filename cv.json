@@ -1,18 +1,50 @@
 {
   "kim_jestem": "Jestem programistą z pasją do tworzenia nowych rozwiązań.",
   "edukacja": [
-    "Opcja",
-    "Opcja"
+    {
+      "name": "tytul",
+      "dates": "daty",
+      "description": "opis"
+    },
+    {
+      "name": "tytul",
+      "dates": "daty",
+      "description": "opis"
+    }
   ],
   "projekty": [
-    "Opcja",
-    "Opcja",
-    "Opcja"
+    {
+      "name": "tytul",
+      "second_name": "podtytul",
+      "link": "link",
+      "description": "opis"
+    },
+    {
+      "name": "tytul",
+      "second_name": "podtytul",
+      "dates": "daty",
+      "description": "opis"
+    },
+    {
+      "name": "tytul",
+      "second_name": "podtytul",
+      "dates": "daty",
+      "description": "opis"
+    }
   ],
   "doswiadczenie": [
-    "Opcja",
-    "Opcja",
-    "Opcja"
+    {
+      "name": "tytul",
+      "second_name": "podtytul",
+      "dates": "daty",
+      "description": "opis"
+    },
+    {
+      "name": "tytul",
+      "second_name": "podtytul",
+      "dates": "daty",
+      "description": "opis"
+    }
   ],
   "umiejetnosci": [
     "Opcja",
@@ -20,11 +52,23 @@
     "Opcja"
   ],
   "jezyki": [
-    "Opcja",
-    "Opcja"
+    {
+      "lang": "jezyk",
+      "level": "poziom"
+    },
+    {
+      "lang": "jezyk",
+      "level": "poziom"
+    }
   ],
   "certyfikaty": [
-    "Opcja",
-    "Opcja"
+    {
+      "name": "nazwa",
+      "details": "szczegoly"
+    },
+    {
+      "name": "nazwa",
+      "details": "szczegoly"
+    }
   ]
 }
