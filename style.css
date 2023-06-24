@@ -1,0 +1,15 @@
+#content {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  #loading {
+    font-weight: bold;
+  }
+  
+  #cv {
+    display: none;
+  }
+  
