@@ -4,7 +4,8 @@
     {
       "name": "Polish Japanese Academy of Information Technology in Gdańsk",
       "dates": "October 2021 - now",
-      "course": "Computer Science - Bachelor degree"
+      "course": "Computer Science - Bachelor degree",
+      "extra_info": ["AI major"]
     },
     {
       "name": "Technikum nr 1 im Polskich Noblistów w Słupsku (Technical school)",
