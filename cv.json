@@ -1,45 +1,52 @@
 {
-  "about_me": "Jestem pasjonującym programistą, oddanym tworzeniu innowacyjnych rozwiązań.",
+  "about_me": "I am a second-year student majoring in computer science in Polish Japanese Academy of Information Technology in Gdańsk. I am interested in data science and machine learning to solve real-world problems and even though I am still relatively new to the field, I am eager to gain hands-on experience and apply my skills in a real-world setting.",
   "education": [
     {
-      "name": "Stopień",
-      "dates": "Daty",
-      "description": "Opis"
+      "name": "Polish Japanese Academy of Information Technology in Gdańsk",
+      "dates": "October 2021 - now",
+      "course": "Computer Science - Bachelor degree",
+      "extra_info": ["one", "two", "three"]
     },
     {
-      "name": "Stopień",
-      "dates": "Daty",
-      "description": "Opis"
+      "name": "Technikum nr 1 im Polskich Noblistów w Słupsku (Technical school)",
+      "dates": "September 2017 - april 2021",
+      "course": "IT class",
+      "extra_info": ["one", "two", "three"]
     }
   ],
   "projects": [
     {
       "name": "Projekt 1",
       "dates": "Daty",
-      "description": "Opis"
+      "link": "Link do strony",
+      "extra_info": ["one", "two", "three"]
     },
     {
       "name": "Projekt 2",
       "dates": "Daty",
-      "description": "Opis"
+      "Link": "Link do strony",
+      "extra_info": ["one", "two", "three"]
     }
   ],
   "experience": [
     {
-      "title": "Stanowisko",
-      "dates": "Daty",
-      "description": "Opis"
+      "title": "Witkac in Słupsk",
+      "dates": "July 2019; february 2020",
+      "position": "Pozycja",
+      "extra_info": ["one", "two", "three"]
     },
     {
       "title": "Stanowisko",
       "dates": "Daty",
-      "description": "Opis"
+      "position": "Pozycja",
+      "extra_info": ["one", "two", "three"]
     }
   ],
   "skills": [
-    "Umiejętność 1",
-    "Umiejętność 2",
-    "Umiejętność 3"
+    {
+      "hard_skills": ["one", "two", "three"],
+      "soft_skills": ["one", "two", "three"]
+    }
   ],
   "languages": [
     {
@@ -54,11 +61,13 @@
   "certifications": [
     {
       "name": "Certyfikat 1",
-      "date": "Data"
+      "date": "Data",
+      "examinator": "Kto wystawil"
     },
     {
       "name": "Certyfikat 2",
-      "date": "Data"
+      "date": "Data",
+      "examinator": "Kto wystawil"
     }
   ]
 }
